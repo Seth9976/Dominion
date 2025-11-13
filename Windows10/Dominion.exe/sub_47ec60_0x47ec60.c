@@ -1,0 +1,7 @@
+// 函数: sub_47ec60
+// 地址: 0x47ec60
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+int32_t result = sub_69f030("res/sound/sound_cards/plunder/fx_landplay_search.sound", 0x15)
+data_171e58c = result
+return result

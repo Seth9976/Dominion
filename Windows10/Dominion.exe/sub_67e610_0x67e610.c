@@ -1,0 +1,43 @@
+// 函数: sub_67e610
+// 地址: 0x67e610
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+int32_t var_8 = 0xffffffff
+int32_t (* var_c)(struct EHRegistrationNode* arg1) = __ehhandler$?_Move@?$_Func_impl_no_alloc@P6A_NABW4agent_status@Concurrency@@@Z_NABW412@@std@@EAEPAV?$_Func_base@_NABW4agent_status@Concurrency@@@2@PAX@Z
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+void* var_14 = arg1
+int32_t __saved_ebp
+int32_t var_20 = __security_cookie ^ &__saved_ebp
+fsbase->NtTib.ExceptionList = &ExceptionList
+char* result = sub_663620(arg1 + 0x80)
+int32_t var_8_1 = 0
+
+if (data_cf65bc != 0)
+    result = *(arg1 + 0x34)
+    
+    if (result != 0 && *result != 0)
+        result = sub_63d4e0(arg1 + 0x34)
+        int32_t temp0_1 = *(result + 4)
+        *(result + 4) -= 1
+        
+        if (temp0_1 == 1)
+            result = sub_64c080(result, *(result + 0xc) + 0x10)
+            *(arg1 + 0x34) = &data_801800
+
+int32_t var_8_2 = 1
+
+if (data_cf65bc != 0)
+    result = *(arg1 + 0x30)
+    
+    if (result != 0 && *result != 0)
+        result = sub_63d4e0(arg1 + 0x30)
+        int32_t temp1_1 = *(result + 4)
+        *(result + 4) -= 1
+        
+        if (temp1_1 == 1)
+            result = sub_64c080(result, *(result + 0xc) + 0x10)
+            *(arg1 + 0x30) = &data_801800
+
+fsbase->NtTib.ExceptionList = ExceptionList
+return result

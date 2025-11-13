@@ -1,0 +1,7 @@
+// 函数: sub_478fd0
+// 地址: 0x478fd0
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+int32_t result = sub_69f030("res/sound/sound_cards/allies/fx_landplay_marquis.sound", 0x15)
+data_171da18 = result
+return result

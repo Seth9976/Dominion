@@ -1,0 +1,7 @@
+// 函数: sub_47b400
+// 地址: 0x47b400
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+int32_t result = sub_69f030("res/sound/sound_cards/fx_landplay_fortune_teller.sound", 0x15)
+data_171de94 = result
+return result

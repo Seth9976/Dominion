@@ -1,0 +1,6 @@
+// 函数: sub_51fa30
+// 地址: 0x51fa30
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+*arg1 = &std::_Func_impl_no_alloc<class <lambda_3ff92754287198f3d89521feccb7c345>,bool,enum DomCardEnum>::`vftable'{for `std::_Func_base<bool,enum DomCardEnum>'}
+return arg1

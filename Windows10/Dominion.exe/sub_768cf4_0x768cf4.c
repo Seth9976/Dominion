@@ -1,0 +1,5 @@
+// 函数: sub_768cf4
+// 地址: 0x768cf4
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+return sub_5b0e50(arg1 - 0x1438) __tailcall

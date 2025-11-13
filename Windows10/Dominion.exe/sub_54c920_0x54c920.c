@@ -1,0 +1,16 @@
+// 函数: sub_54c920
+// 地址: 0x54c920
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+__chkstk(0x1910)
+int32_t var_14 = 0
+void arg_c80
+uint32_t eax_1 = sub_5685f0(&arg_c80, 0, 0x3ea, &arg_c80, 4)
+int32_t var_14_1 = 7
+void var_8
+uint32_t result = sub_56a740(eax_1, 0x3ea, &var_8, __builtin_memcpy(&var_8, eax_1, 0xc84))
+
+if (result == 0)
+    return result
+
+return sub_547860(0x476)

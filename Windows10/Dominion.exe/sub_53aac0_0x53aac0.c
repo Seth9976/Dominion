@@ -1,0 +1,7 @@
+// 函数: sub_53aac0
+// 地址: 0x53aac0
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+void var_c88
+int32_t edx
+return sub_562730(&var_c88, edx, 2, &var_c88)

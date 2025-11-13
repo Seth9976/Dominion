@@ -1,0 +1,7 @@
+// 函数: sub_473a10
+// 地址: 0x473a10
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+int32_t result = sub_69f030("res/card_gen/menagerie/huntinglodge.texture", 3)
+data_171d2a4 = result
+return result

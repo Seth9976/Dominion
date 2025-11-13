@@ -1,0 +1,7 @@
+// 函数: sub_47add0
+// 地址: 0x47add0
+// 来自: E:/Dominion/steamapps/common/Dominion/Dominion.exe.bndb
+
+int32_t result = sub_69f030("res/sound/sound_cards/fx_landplay_dame_molly.sound", 0x15)
+data_171ddd0 = result
+return result
