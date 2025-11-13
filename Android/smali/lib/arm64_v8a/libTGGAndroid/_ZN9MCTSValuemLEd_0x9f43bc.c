@@ -1,0 +1,61 @@
+// 函数: _ZN9MCTSValuemLEd
+// 地址: 0x9f43bc
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int128_t* entry_x0
+float128 v1 = *entry_x0
+float128 v2 = vcvt_f64_f32(v1)
+float128 v1_1 = vcvt_high_f64_f32(v1)
+float128 v2_1 = vmulq_lane_f64(v2, arg1, 0)
+float128 v1_2 = vmulq_lane_f64(v1_1, arg1, 0)
+float128 v2_3 = vcvt_high_f32_f64(vcvt_f32_f64(v2_1, v2_1), v1_2)
+v1_2 = entry_x0[3]
+*entry_x0 = v2_3
+float128 v2_4 = vcvt_f64_f32(v1_2)
+float128 v1_3 = vcvt_high_f64_f32(v1_2)
+float128 v2_5 = vmulq_lane_f64(v2_4, arg1, 0)
+float128 v1_4 = vmulq_lane_f64(v1_3, arg1, 0)
+float128 v2_7 = vcvt_high_f32_f64(vcvt_f32_f64(v2_5, v2_5), v1_4)
+v1_4 = entry_x0[6]
+entry_x0[3] = v2_7
+float128 v2_8 = vcvt_f64_f32(v1_4)
+float128 v1_5 = vcvt_high_f64_f32(v1_4)
+float128 v2_9 = vmulq_lane_f64(v2_8, arg1, 0)
+float128 v1_6 = vmulq_lane_f64(v1_5, arg1, 0)
+float128 v2_11 = vcvt_high_f32_f64(vcvt_f32_f64(v2_9, v2_9), v1_6)
+v1_6 = entry_x0[1]
+entry_x0[6] = v2_11
+float128 v2_12 = vcvt_f64_f32(v1_6)
+float128 v1_7 = vcvt_high_f64_f32(v1_6)
+float128 v2_13 = vmulq_lane_f64(v2_12, arg1, 0)
+float128 v1_8 = vmulq_lane_f64(v1_7, arg1, 0)
+float128 v2_15 = vcvt_high_f32_f64(vcvt_f32_f64(v2_13, v2_13), v1_8)
+v1_8 = entry_x0[2]
+entry_x0[1] = v2_15
+float128 v2_16 = vcvt_f64_f32(v1_8)
+float128 v1_9 = vcvt_high_f64_f32(v1_8)
+float128 v2_17 = vmulq_lane_f64(v2_16, arg1, 0)
+float128 v1_10 = vmulq_lane_f64(v1_9, arg1, 0)
+float128 v2_19 = vcvt_high_f32_f64(vcvt_f32_f64(v2_17, v2_17), v1_10)
+v1_10 = entry_x0[4]
+entry_x0[2] = v2_19
+float128 v2_20 = vcvt_f64_f32(v1_10)
+float128 v1_11 = vcvt_high_f64_f32(v1_10)
+float128 v2_21 = vmulq_lane_f64(v2_20, arg1, 0)
+float128 v1_12 = vmulq_lane_f64(v1_11, arg1, 0)
+float128 v2_23 = vcvt_high_f32_f64(vcvt_f32_f64(v2_21, v2_21), v1_12)
+v1_12 = entry_x0[5]
+entry_x0[4] = v2_23
+float128 v2_24 = vcvt_f64_f32(v1_12)
+float128 v1_13 = vcvt_high_f64_f32(v1_12)
+float128 v2_25 = vmulq_lane_f64(v2_24, arg1, 0)
+float128 v1_14 = vmulq_lane_f64(v1_13, arg1, 0)
+float128 v2_27 = vcvt_high_f32_f64(vcvt_f32_f64(v2_25, v2_25), v1_14)
+v1_14.q = entry_x0[7].q
+int32_t v3 = *(entry_x0 + 0x78)
+entry_x0[5] = v2_27
+v2_27.q = fconvert.d(v3)
+float128 v1_16 = vmulq_lane_f64(vcvt_f64_f32(v1_14), arg1, 0)
+arg1.d = fconvert.s(v2_27.q f* arg1)
+entry_x0[7].q = vcvt_f32_f64(v1_16, v1_16)
+*(entry_x0 + 0x78) = arg1.d

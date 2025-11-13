@@ -1,0 +1,35 @@
+// 函数: _Z24GetSortLayerFromMaterialP6XAsset
+// 地址: 0xc93228
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int32_t x8 = *(gDraw3DData + 0x560)
+
+if (x8 != 0)
+    return zx.q(x8)
+
+int64_t* x8_1 = *arg1
+
+if (x8_1 == 0)
+    if (*(arg1 + 8) == 0x15)
+        XString::GetString()
+        XTrace("Unpreloaded sound %s")
+    
+    AssetCatalogLoadAsset(arg1, false, true)
+    x8_1 = *arg1
+
+void* x9 = *x8_1
+uint32_t x8_3 = zx.d(*(x9 + 0x10))
+uint32_t x9_1 = zx.d(*(x9 + 0x11))
+
+if ((x9_1 | x8_3) == 0)
+    return 0x7d0
+
+if (x9_1 == 0)
+    pthread_kill(pthread_self(), 6)
+    return GetSortTypeFromMaterial(XNoReturn()) __tailcall
+
+int32_t x8_4
+
+x8_4 = x8_3 == 0 ? 0x7d0 : 0x3e8
+
+return zx.q(x8_4)

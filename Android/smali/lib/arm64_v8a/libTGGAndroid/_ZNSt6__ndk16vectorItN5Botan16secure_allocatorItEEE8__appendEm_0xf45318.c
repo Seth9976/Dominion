@@ -1,0 +1,66 @@
+// 函数: _ZNSt6__ndk16vectorItN5Botan16secure_allocatorItEEE8__appendEm
+// 地址: 0xf45318
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int64_t result = *(arg1 + 8)
+int64_t x8 = *(arg1 + 0x10)
+int64_t entry_x1
+
+if (entry_x1 u<= (x8 - result) s>> 1)
+    if (entry_x1 != 0)
+        int64_t x2_1 = entry_x1 << 1
+        memset(result, 0, x2_1)
+        result += x2_1
+    
+    *(arg1 + 8) = result
+else
+    void* x20_1 = *arg1
+    size_t x22_1 = result - x20_1
+    int64_t x24_1 = x22_1 s>> 1
+    uint64_t x9_1 = x24_1 + entry_x1
+    
+    if (x24_1 + entry_x1 s< 0)
+        sub_c776cc(std::__ndk1::__vector_base_common<true>::__throw_length_error())
+        noreturn
+    
+    uint64_t x8_1 = x8 - x20_1
+    uint64_t x9_2
+    
+    x9_2 = x8_1 u< x9_1 ? x9_1 : x8_1
+    
+    uint64_t x23_1
+    
+    if (0x3fffffffffffffff u> x8_1 s>> 1)
+        x23_1 = x9_2
+    else
+        x23_1 = 0x7fffffffffffffff
+    
+    int64_t x0_1
+    int64_t x25_1
+    
+    if (x23_1 == 0)
+        x0_1 = 0
+        x25_1 = x24_1
+    else
+        x0_1 = Botan::allocate_memory(x23_1, 2)
+        x20_1 = *arg1
+        x22_1 = *(arg1 + 8) - x20_1
+        x25_1 = x22_1 s>> 1
+    
+    int64_t x24_2 = x0_1 + (x24_1 << 1)
+    int64_t x2_2 = entry_x1 << 1
+    result = memset(x24_2, 0, x2_2)
+    int64_t x21_1 = x24_2 - (x25_1 << 1)
+    
+    if (x22_1 s>= 1)
+        result = memcpy(x21_1, x20_1, x22_1)
+    
+    int64_t x8_3 = *(arg1 + 0x10)
+    *arg1 = x21_1
+    *(arg1 + 8) = x2_2 + x24_2
+    *(arg1 + 0x10) = x0_1 + (x23_1 << 1)
+    
+    if (x20_1 != 0)
+        return Botan::deallocate_memory(x20_1, (x8_3 - x20_1) s>> 1, 2)
+
+return result

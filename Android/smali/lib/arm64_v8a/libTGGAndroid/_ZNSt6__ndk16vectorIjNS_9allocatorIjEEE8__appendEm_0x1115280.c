@@ -1,0 +1,5 @@
+// 函数: _ZNSt6__ndk16vectorIjNS_9allocatorIjEEE8__appendEm
+// 地址: 0x1115280
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+return std::__ndk1::vector<uint32_t, std::__ndk1::allocator<uint32_t> >::__append(arg1) __tailcall

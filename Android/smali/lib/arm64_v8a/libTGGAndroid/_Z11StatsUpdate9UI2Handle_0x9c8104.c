@@ -1,0 +1,135 @@
+// 函数: _Z11StatsUpdate9UI2Handle
+// 地址: 0x9c8104
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int32_t x19 = arg1.d
+UI2SetHandler(arg1, StatsClick)
+GameProfile* x0 = GetActiveProfile()
+int32_t x8 = *(GetActiveProfile() + 0x4324)
+XString var_38
+int64_t* x1_6
+
+if (x8 - 1 u>= 2)
+    if (x8 != 0)
+        pthread_kill(pthread_self(), 6)
+        return GetCreditsPage(XNoReturn()) __tailcall
+    
+    int32_t x8_1 = *(GetClient() + 0x1c)
+    int32_t x8_2
+    
+    if (x8_1 != 6)
+        x8_2 = *(GetClient() + 0x1c)
+    
+    if (x8_1 != 6 && x8_2 != 8)
+        goto label_9c815c
+    
+    UI2SetState(zx.q(x19), &data_11cffb0, 0xffffffff, 0)
+    SyncedDataGet(x0, 0x3e9)
+    SyncedDataGet(x0, 0x3eb)
+    SyncedDataGet(x0, 0x3ea)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11cffe0, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3ec)
+    SyncedDataGet(x0, 0x3ee)
+    SyncedDataGet(x0, 0x3ed)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11cfff8, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3ef)
+    SyncedDataGet(x0, 0x3f1)
+    SyncedDataGet(x0, 0x3f0)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0010, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3f2)
+    SyncedDataGet(x0, 0x3f4)
+    SyncedDataGet(x0, 0x3f3)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0028, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3f5)
+    SyncedDataGet(x0, 0x3f7)
+    SyncedDataGet(x0, 0x3f6)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0040, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3f8)
+    SyncedDataGet(x0, 0x3fa)
+    SyncedDataGet(x0, 0x3f9)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0058, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3fb)
+    SyncedDataGet(x0, 0x3fd)
+    SyncedDataGet(x0, 0x3fc)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0070, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3fe)
+    SyncedDataGet(x0, 0x400)
+    SyncedDataGet(x0, 0x3ff)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0088, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x401)
+    SyncedDataGet(x0, 0x403)
+    SyncedDataGet(x0, 0x402)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d00a0, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x404)
+    SyncedDataGet(x0, 0x406)
+    SyncedDataGet(x0, 0x405)
+    XFormatString("%d-%d")
+    x1_6 = &data_11d00b8
+else
+label_9c815c:
+    UI2SetState(zx.q(x19), &data_11cffc8, 0xffffffff, 0)
+    SyncedDataGet(x0, 0x3e9)
+    SyncedDataGet(x0, 0x3eb)
+    SyncedDataGet(x0, 0x3ea)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11cffe0, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3ec)
+    SyncedDataGet(x0, 0x3ee)
+    SyncedDataGet(x0, 0x3ed)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11cfff8, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3ef)
+    SyncedDataGet(x0, 0x3f1)
+    SyncedDataGet(x0, 0x3f0)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0010, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3f2)
+    SyncedDataGet(x0, 0x3f4)
+    SyncedDataGet(x0, 0x3f3)
+    XFormatString("%d-%d")
+    UI2SetText(zx.q(x19), &data_11d0028, &var_38, 0xffffffff)
+    XString::~XString()
+    SyncedDataGet(x0, 0x3f5)
+    SyncedDataGet(x0, 0x3f7)
+    SyncedDataGet(x0, 0x3f6)
+    XFormatString("%d-%d")
+    x1_6 = &data_11d0040
+
+UI2SetText(zx.q(x19), x1_6, &var_38, 0xffffffff)
+XString::~XString()
+
+if (zx.d(*(x0 + 0x7ca4)) == 0)
+    return UI2SetState(zx.q(x19), &data_11d00d0, 0xffffffff, 0)
+
+float temp0_1 = vrndm_f32(DominionGamesLevel(x0 + 0x7ca8) * float.s(0x42c80000))
+float v1_1
+
+if (temp0_1 < 0f)
+    v1_1 = fconvert.s(-0.5f)
+else
+    v1_1 = fconvert.s(0.5f)
+
+XStringFromInt(vcvts_s32_f32(temp0_1 + v1_1))
+UI2SetText(zx.q(x19), &data_11d00e8, &var_38, 0xffffffff)
+return XString::~XString()

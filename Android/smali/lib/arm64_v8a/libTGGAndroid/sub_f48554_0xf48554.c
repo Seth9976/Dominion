@@ -1,0 +1,22 @@
+// 函数: sub_f48554
+// 地址: 0xf48554
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+void* x20 = arg2
+arg2 = nullptr
+
+if (x20 != 0)
+    if (zx.d(arg3) != 0)
+        void* x0 = *(x20 + 0x38)
+        
+        if (x0 != 0)
+            *(x20 + 0x40) = x0
+            operator delete(x0)
+        
+        if ((zx.d(*(x20 + 0x20)) & 1) != 0)
+            operator delete(*(x20 + 0x30))
+    
+    operator delete(x20)
+
+sub_1101e04(arg1)
+noreturn

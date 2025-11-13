@@ -1,0 +1,73 @@
+// 函数: _Z13CalcTransformRK9TransformRK5OBBox
+// 地址: 0xf5c420
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+float v16 = *(arg1 + 0xc)
+float v19 = *(arg1 + 0x10)
+float v0 = *arg1
+float v7 = *(arg1 + 4)
+float v17 = *(arg1 + 8)
+float v3 = *(arg2 + 8)
+float v6 = *(arg2 + 0xc)
+float v18 = *(arg2 + 0x18)
+float v4 = *(arg2 + 0x10)
+float v5 = *(arg2 + 0x14)
+float v1 = *arg2
+float v2 = *(arg2 + 4)
+float v21 = v19 * v19
+float v22 = v7 * v7
+float v23 = v7 * v17
+float v24 = v19 * v16
+float v25 = v19 * v17
+float v26 = v7 * v16
+float v27 = v17 * v16
+float v28 = v19 * v7
+int64_t v8
+v8.d = v23 - v24
+v23 = v23 + v24
+v24 = v21 + v22
+v21 = v21 - v22
+v22 = v25 + v26
+v25 = v26 - v25
+v26 = v27 - v28
+v27 = v28 + v27
+float v29 = v18 * v19 - v6 * v7
+float v30 = v4 * v19
+v28 = v6 * v19 + v18 * v7
+float v31 = v18 * v17
+v18 = v5 * v19 + v18 * v16
+v19 = v3 + v3
+v22 = v19 * v22
+v19 = v19 * v26
+v26 = v1 + v1
+v30 = v30 + v31
+v31 = v17 * v17
+v23 = v26 * v23
+v25 = v26 * v25
+v26 = v2 + v2
+v24 = v24 - v31
+v8.d = v26 f* v8.d
+v26 = v26 * v27
+v27 = v21 + v31
+v21 = v21 - v31
+v29 = v29 - v4 * v17
+v31 = v5 * v17
+v17 = v6 * v17
+v6 = v6 * v16 + v30
+v30 = v4 * v7
+v7 = v5 * v7
+v5 = v5 * v16
+v4 = v4 * v16
+v16 = v16 * v16
+v3 = *(arg1 + 0x1c) + v0 * (v3 * (v21 + v16) + v25 + v26)
+v1 = *(arg1 + 0x14) + v0 * (v22 + v1 * (v24 - v16) f+ v8.d)
+v2 = *(arg1 + 0x18) + v0 * (v19 + v23 + v2 * (v27 - v16))
+float* entry_x8
+entry_x8[2] = v6 - v7
+entry_x8[3] = v30 + v18 - v17
+entry_x8[6] = v2
+entry_x8[7] = v3
+entry_x8[4] = v29 - v5
+entry_x8[5] = v1
+*entry_x8 = v0
+entry_x8[1] = v28 + v31 - v4

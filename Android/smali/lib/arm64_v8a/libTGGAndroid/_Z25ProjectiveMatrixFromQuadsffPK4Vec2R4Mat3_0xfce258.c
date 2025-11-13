@@ -1,0 +1,56 @@
+// 函数: _Z25ProjectiveMatrixFromQuadsffPK4Vec2R4Mat3
+// 地址: 0xfce258
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+float v5 = *(arg3 + 0x18)
+float v4 = *(arg3 + 0x1c)
+float v16 = *(arg3 + 0x10)
+float v17 = *(arg3 + 0x14)
+float v7 = *(arg3 + 8)
+float v6 = *(arg3 + 0xc)
+float v3 = *arg3
+float v2 = *(arg3 + 4)
+float v23 = v17 - v4
+float v24 = v16 * arg2
+float v20 = v16 * v4
+float v19 = v17 * v5
+float v18 = v5 - v16
+float v30 = v20 - v19
+float v25 = v24 * v4 + v7 * arg2 * v23
+float v28 = v6 * v18
+arg2 = v5 * arg2
+float v29 = v28 + v20 - v7 * v4
+float v22 = v7 * arg1
+arg1 = (v28 + v30) * arg1
+v24 = arg2 - v24
+float v26 = v7 * (v4 - v17)
+arg2 = v25 - v17 * arg2
+v25 = v26 + v3 * v23
+v26 = v26 - v20
+v28 = v20 + v3 * (v6 - v4)
+float v21 = v6 * (v16 - v5)
+v20 = v21 + v19 - v20
+v21 = v21 + v25
+v22 = v22 * v23
+v25 = v3 * v6 * v23
+v23 = v7 * v23 - v19
+v26 = v19 + v26
+v19 = v28 - v19
+arg2 = v6 * v24 + arg2
+v24 = v6 * v5
+arg1 = v22 + arg1
+v22 = v7 * v16
+float v27 = v3 * (v6 * v17 - v17 * v4) + v2 * v29
+v28 = v16 * v5
+v23 = v24 + v23
+v24 = v17 * v24
+v17 = v7 * v17
+*(arg4 + 8) = v3
+*(arg4 + 0xc) = (v25 + v6 * v30 + v2 * v26) / arg1
+*(arg4 + 0x10) = fneg(v17 * v4 + v27 - v24) / arg2
+*(arg4 + 0x14) = v2
+*(arg4 + 0x18) = (v2 * v18 + v21) / arg1
+*(arg4 + 0x1c) = fneg(v2 * (v5 - v7) + v17 + v19 - v6 * v16) / arg2
+*arg4 = (v2 * v7 * v18 + v7 * v30 + v3 * v20) / arg1
+*(arg4 + 4) = fneg(v2 * (v28 - v22) + v22 * v4 + v3 * v23 - v6 * v28) / arg2
+*(arg4 + 0x20) = 0x3f800000

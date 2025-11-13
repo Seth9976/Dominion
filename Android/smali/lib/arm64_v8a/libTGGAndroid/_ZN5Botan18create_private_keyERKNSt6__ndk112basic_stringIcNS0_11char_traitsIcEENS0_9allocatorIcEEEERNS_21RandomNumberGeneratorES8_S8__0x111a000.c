@@ -1,0 +1,5 @@
+// 函数: _ZN5Botan18create_private_keyERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS_21RandomNumberGeneratorES8_S8_
+// 地址: 0x111a000
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+return Botan::create_private_key(arg1, arg2, arg3, arg4) __tailcall

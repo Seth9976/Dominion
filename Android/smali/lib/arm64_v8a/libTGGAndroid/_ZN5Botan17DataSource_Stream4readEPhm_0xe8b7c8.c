@@ -1,0 +1,32 @@
+// 函数: _ZN5Botan17DataSource_Stream4readEPhm
+// 地址: 0xe8b7c8
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >::read(*(arg1 + 0x28), arg2)
+int64_t* x8 = *(arg1 + 0x28)
+
+if ((zx.d(*(x8 + *(*x8 - 0x18) + 0x20)) & 1) == 0)
+    int64_t result = x8[1]
+    *(arg1 + 0x30) += result
+    return result
+
+void** x0_1 = __cxa_allocate_exception(0x20)
+int64_t x0_2
+int128_t v0
+x0_2, v0 = operator new(0x30)
+int64_t var_40 = x0_2
+int128_t var_50 = data_71c500
+__builtin_strncpy(x0_2, "DataSource_Stream::read: Source failure", 0x28)
+std::__ndk1::operator+<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >(
+    "I/O error: ", &var_50)
+*x0_1 = _vtable_for_Botan::Exception + 0x10
+std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::basic_string(
+    &x0_1[1])
+char var_38
+void* var_28
+
+if ((zx.d(var_38) & 1) != 0)
+    operator delete(var_28)
+*x0_1 = _vtable_for_Botan::Stream_IO_Error + 0x10
+__cxa_throw(x0_1, _typeinfo_for_Botan::Stream_IO_Error, Botan::Exception::~Exception)
+noreturn

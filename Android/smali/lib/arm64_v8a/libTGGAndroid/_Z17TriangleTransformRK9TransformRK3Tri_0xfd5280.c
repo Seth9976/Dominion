@@ -1,0 +1,63 @@
+// 函数: _Z17TriangleTransformRK9TransformRK3Tri
+// 地址: 0xfd5280
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+float v0 = *arg1
+float v7 = *(arg1 + 4)
+float v18 = *(arg1 + 0x10)
+float v1 = *(arg1 + 0x14)
+float v16 = *(arg1 + 8)
+float v17 = *(arg1 + 0xc)
+float v19 = v18 * v18
+float v20 = v7 * v7
+float v21 = v16 * v16
+float v22 = v17 * v17
+float v23 = v7 * v16
+float v24 = v18 * v17
+float v25 = v18 * v16
+float v26 = v7 * v17
+v16 = v16 * v17
+v7 = v18 * v7
+v17 = v19 + v20
+v19 = v19 - v20
+float v4 = v0 * *arg2
+float v5 = v0 * *(arg2 + 4)
+float v27 = v23 - v24
+float v29 = v25 + v26
+v23 = v23 + v24
+v20 = v16 - v7
+v24 = v26 - v25
+v7 = v7 + v16
+float v2 = *(arg1 + 0x18)
+float v3 = *(arg1 + 0x1c)
+float v6 = v0 * *(arg2 + 8)
+v18 = v5 + v5
+float v30 = v4 + v4
+v16 = v17 - v21 - v22
+v26 = v19 + v21 - v22
+float v28 = v6 + v6
+v19 = v19 - v21 + v22
+float* entry_x8
+entry_x8[1] = v2 + v28 * v20 + v30 * v23 + v5 * v26
+entry_x8[2] = v3 + v6 * v19 + v30 * v24 + v18 * v7
+*entry_x8 = v1 + v28 * v29 + v4 * v16 + v18 * v27
+v4 = v0 * *(arg2 + 0xc)
+v5 = v0 * *(arg2 + 0x10)
+v6 = v0 * *(arg2 + 0x14)
+v17 = v16 * v4
+v18 = v5 + v5
+v4 = v4 + v4
+v21 = v6 + v6
+entry_x8[3] = v1 + v29 * v21 + v17 + v27 * v18
+entry_x8[4] = v2 + v23 * v4 + v26 * v5 + v20 * v21
+entry_x8[5] = v3 + v19 * v6 + v24 * v4 + v7 * v18
+v4 = v0 * *(arg2 + 0x18)
+v5 = v0 * *(arg2 + 0x1c)
+v0 = v0 * *(arg2 + 0x20)
+v6 = v16 * v4
+v16 = v5 + v5
+v4 = v4 + v4
+v17 = v0 + v0
+entry_x8[6] = v1 + v29 * v17 + v6 + v27 * v16
+entry_x8[7] = v2 + v23 * v4 + v26 * v5 + v20 * v17
+entry_x8[8] = v3 + v19 * v0 + v24 * v4 + v7 * v16

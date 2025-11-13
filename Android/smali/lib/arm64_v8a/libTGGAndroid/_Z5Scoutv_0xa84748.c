@@ -1,0 +1,21 @@
+// 函数: _Z5Scoutv
+// 地址: 0xa84748
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+Action(1, 0)
+RevealDeck(4, 0x3ee, 0x7e579c)
+struct std::__ndk1::__function::__base<bool (CardID)>::std::__ndk1::__function::__func<Scout()::$_25, std::__ndk1::allocator<Scout()::$_25>, bool (CardID)>::VTable
+    * const var_1960 = &_vtable_for_std::__ndk1::__function::__func<Scout()::$_25, std::__ndk1::allocator<Scout()::$_25>, bool (CardID)>{for `std::__ndk1::__function::__base<bool (CardID)>'}
+struct std::__ndk1::__function::__base<bool (CardID)>::std::__ndk1::__function::__func<Scout()::$_25, std::__ndk1::allocator<Scout()::$_25>, bool (CardID)>::VTable
+    * const* var_1940 = &var_1960
+CardIDs var_1930
+CardIDs var_ca8
+FilterCards(&var_1960, &var_ca8, &var_1930)
+
+if (&var_1960 == var_1940)
+    (*var_1940)->vFunc_4()
+else if (var_1940 != 0)
+    (*var_1940)->j_operator delete()
+
+MoveCardsTo(&var_ca8, 0x3ee, 0x3ea, 3, 0, 0, 0xb)
+return ReturnToDeckAnyOrder(&var_1930, 0x3ee, 0x18)

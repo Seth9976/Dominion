@@ -1,0 +1,18 @@
+// 函数: sub_f01c60
+// 地址: 0xf01c60
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+void* x0 = arg1[3]
+*arg1 = &_vtable_for_Botan::(anonymous namespace)::Ed25519_Hashed_Verify_Operation{for `Botan::PK_Ops::Verification'}
+
+if (x0 != 0)
+    arg1[4] = x0
+    operator delete(x0)
+
+int64_t* x0_1 = arg1[1]
+arg1[1] = 0
+
+if (x0_1 != 0)
+    (*(*x0_1 + 0x10))()
+
+return operator delete(arg1) __tailcall

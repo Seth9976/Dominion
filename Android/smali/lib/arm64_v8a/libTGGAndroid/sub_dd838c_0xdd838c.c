@@ -1,0 +1,12 @@
+// 函数: sub_dd838c
+// 地址: 0xdd838c
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int64_t* x0 = *(arg2 + 8)
+*(arg2 + 8) = 0
+
+if (x0 != 0)
+    (*(*x0 + 0x28))()
+
+sub_1101e04(arg1)
+noreturn

@@ -1,0 +1,86 @@
+// 函数: _Z20BoneTransformComposeR13BoneTransformS0_S0_
+// 地址: 0xc79100
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int128_t v0
+v0.q = *(arg2 + 0x1c)
+int128_t v1
+v1.q = *(arg3 + 0x1c)
+float v2 = *(arg2 + 0x24)
+float v3 = *(arg3 + 0x24)
+*(arg1 + 0x1c) = vmul_f32(v0, v1, 0)
+v1.d = v2 * v3
+*(arg1 + 0x24) = v1.d
+float v6 = *(arg2 + 8)
+double v0_1
+v0_1.d = *(arg2 + 0xc)
+float v7 = *(arg3 + 8)
+v1.d = *(arg3 + 0xc)
+v2 = *arg2
+v3 = *(arg2 + 4)
+float v4 = *arg3
+float v5 = *(arg3 + 4)
+float v16 = v0_1.d f* v1.d
+float v21 = v1.d f* v2
+float v20 = v0_1.d f* v4
+float v24 = v0_1.d f* v5
+float v25 = v1.d f* v3
+v0_1.d = v0_1.d f* v7
+v1.d = v1.d f* v6
+v0_1.d = v1.d f+ v0_1.d
+v1.d = v16 - v2 * v4 - v3 * v5
+v0_1.d = v2 * v5 f+ v0_1.d
+v1.d = v1.d f- v6 * v7
+v0_1.d = v0_1.d f- v4 * v3
+*arg1 = v21 + v20 + v3 * v7 - v5 * v6
+*(arg1 + 4) = v25 + v24 + v4 * v6 - v2 * v7
+*(arg1 + 8) = v0_1.d
+*(arg1 + 0xc) = v1.d
+v2 = *arg2
+v3 = *(arg2 + 4)
+v1.d = *(arg2 + 8)
+v4 = *(arg2 + 0xc)
+v6 = *(arg3 + 0x18)
+v0_1.d = *(arg3 + 0x10)
+v5 = *(arg3 + 0x14)
+v20 = v2 * v2
+float v19 = v4 * v4
+v21 = v3 * v3
+float v23 = v2 * v3
+v24 = v4 f* v1.d
+v25 = v4 * v3
+float v26 = v2 f* v1.d
+v3 = v3 f* v1.d
+v2 = v4 * v2
+v4 = v23 - v24
+v23 = v23 + v24
+v24 = v19 + v20
+v19 = v19 - v20
+v20 = v25 + v26
+v25 = v26 - v25
+v26 = v3 - v2
+v2 = v2 + v3
+v3 = v6 + v6
+v20 = v20 * v3
+v3 = v26 * v3
+v26 = v0_1.d f+ v0_1.d
+float v22 = v5 + v5
+v23 = v26 * v23
+v25 = v26 * v25
+v1.d = v1.d f* v1.d
+v24 = v24 - v21 f- v1.d
+v26 = v19 + v21 f- v1.d
+v1.d = v19 - v21 f+ v1.d
+v0_1.d = v0_1.d f* v24
+v1.d = v1.d f* v6
+v0_1.d = v0_1.d f+ v4 * v22
+v1.d = v1.d f+ v25 + v2 * v22
+v0_1.d = v0_1.d f+ v20
+v1.d = *(arg2 + 0x24) f* v1.d
+v0_1.d = *(arg2 + 0x1c) f* v0_1.d
+v1.d = v1.d f+ *(arg2 + 0x18)
+v0_1.d = *(arg2 + 0x10) f+ v0_1.d
+v2 = *(arg2 + 0x20) * (v23 + v5 * v26 + v3) + *(arg2 + 0x14)
+*(arg1 + 0x10) = v0_1.d
+*(arg1 + 0x14) = v2
+*(arg1 + 0x18) = v1.d

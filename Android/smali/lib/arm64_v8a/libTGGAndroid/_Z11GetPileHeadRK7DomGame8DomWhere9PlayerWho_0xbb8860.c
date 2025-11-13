@@ -1,0 +1,20 @@
+// 函数: _Z11GetPileHeadRK7DomGame8DomWhere9PlayerWho
+// 地址: 0xbb8860
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int32_t x19 = arg2
+
+if (arg2 u> 0x48)
+    return arg1 + muls.dp.d(arg3, 0x5a30) + (sx.q(x19) << 2) + 0x16fc8
+
+if (arg2 == 0x48)
+    void* x0_1 = __emutls_get_address(__emutls_v.gContextStack_tl)
+    void* x8_3 = x0_1 + sx.q(*(x0_1 + 0x13000)) * 0x98
+    *(*(x8_3 - 0x90) + 0x1a28) = 0xffffffff
+    void* x8_4 = *(x8_3 - 0x90)
+    *(x8_4 + 0x1a2c) = *(x8_4 + 0x1a24)
+    XTrace("game thread yield (error)")
+    xco_yield()
+    XTrace("game thread resume (error)")
+
+return arg1 + (zx.q(x19) << 4) + 0x1534

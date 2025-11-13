@@ -1,0 +1,15 @@
+// 函数: _ZNK5Botan14Cert_Extension16Name_Constraints12encode_innerEv
+// 地址: 0xeb2684
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+void** x0 = __cxa_allocate_exception(0x20)
+int64_t x0_1
+int128_t v0
+x0_1, v0 = operator new(0x20)
+int64_t var_30 = x0_1
+int128_t var_40 = data_71aa40
+__builtin_strncpy(x0_1, "Name_Constraints encoding", 0x1a)
+Botan::Exception::Exception(x0, "Not implemented")
+*x0 = _vtable_for_Botan::Not_Implemented + 0x10
+__cxa_throw(x0, _typeinfo_for_Botan::Not_Implemented, Botan::Exception::~Exception)
+noreturn

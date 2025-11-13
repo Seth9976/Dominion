@@ -1,0 +1,5 @@
+// 函数: sub_f2d7a4
+// 地址: 0xf2d7a4
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+return &_typeinfo_for_Botan_FFI::apply_fn<Botan::X509_Certificate, 2405599543u, botan_x509_cert_get_subject_key_id::$_31>::(Botan_FFI::botan_struct<Botan::X509_Certificate, 2405599543u>*, char const*, botan_x509_cert_get_subject_key_id::$_31)

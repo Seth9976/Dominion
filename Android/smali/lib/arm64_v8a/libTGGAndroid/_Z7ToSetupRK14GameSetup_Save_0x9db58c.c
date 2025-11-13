@@ -1,0 +1,85 @@
+// 函数: _Z7ToSetupRK14GameSetup_Save
+// 地址: 0x9db58c
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+void* entry_x8
+memset(entry_x8, 0, 0x11b0)
+XString::XString()
+XString::XString()
+XString::XString()
+*(entry_x8 + 8) = *(arg1 + 0x188)
+*(entry_x8 + 0xc) = *(arg1 + 0x18c)
+*(entry_x8 + 0x14) = *(arg1 + 0x194)
+int128_t v0
+v0.q = *(arg1 + 0x1a4)
+*(entry_x8 + 0x24) = v0.q
+*(entry_x8 + 0x2c) = *(arg1 + 0x1ac)
+*(arg1 + 0x1b0)
+XString::operator=(entry_x8 + 0x30)
+*(arg1 + 0x1b8)
+XString::operator=(entry_x8 + 0x38)
+*(entry_x8 + 0x11ac) = *(arg1 + 0x180)
+*(entry_x8 + 0x5c) = *(arg1 + 8)
+*(entry_x8 + 0x64) = *(arg1 + 0x10)
+AssignName(entry_x8 + 0x4c, *arg1)
+*(entry_x8 + 0x60) = *(arg1 + 0xc)
+*(entry_x8 + 0x6c) = *(arg1 + 0x18)
+int64_t x8_7 = sx.q(*(arg1 + 0x28))
+*(entry_x8 + 0x274) = x8_7.d
+memcpy(entry_x8 + 0x74, *(arg1 + 0x20), x8_7 << 3)
+*(entry_x8 + 0x288) = *(arg1 + 0x38)
+*(entry_x8 + 0x290) = *(arg1 + 0x40)
+AssignName(entry_x8 + 0x278, *(arg1 + 0x30))
+*(entry_x8 + 0x28c) = *(arg1 + 0x3c)
+*(entry_x8 + 0x298) = *(arg1 + 0x48)
+int64_t x8_11 = sx.q(*(arg1 + 0x58))
+*(entry_x8 + 0x4a0) = x8_11.d
+memcpy(entry_x8 + 0x2a0, *(arg1 + 0x50), x8_11 << 3)
+*(entry_x8 + 0x4b4) = *(arg1 + 0x68)
+*(entry_x8 + 0x4bc) = *(arg1 + 0x70)
+AssignName(entry_x8 + 0x4a4, *(arg1 + 0x60))
+*(entry_x8 + 0x4b8) = *(arg1 + 0x6c)
+*(entry_x8 + 0x4c4) = *(arg1 + 0x78)
+int64_t x8_15 = sx.q(*(arg1 + 0x88))
+*(entry_x8 + 0x6cc) = x8_15.d
+memcpy(entry_x8 + 0x4cc, *(arg1 + 0x80), x8_15 << 3)
+*(entry_x8 + 0x6e0) = *(arg1 + 0x98)
+*(entry_x8 + 0x6e8) = *(arg1 + 0xa0)
+AssignName(entry_x8 + 0x6d0, *(arg1 + 0x90))
+*(entry_x8 + 0x6e4) = *(arg1 + 0x9c)
+*(entry_x8 + 0x6f0) = *(arg1 + 0xa8)
+int64_t x8_19 = sx.q(*(arg1 + 0xb8))
+*(entry_x8 + 0x8f8) = x8_19.d
+memcpy(entry_x8 + 0x6f8, *(arg1 + 0xb0), x8_19 << 3)
+*(entry_x8 + 0x90c) = *(arg1 + 0xc8)
+*(entry_x8 + 0x914) = *(arg1 + 0xd0)
+AssignName(entry_x8 + 0x8fc, *(arg1 + 0xc0))
+*(entry_x8 + 0x910) = *(arg1 + 0xcc)
+*(entry_x8 + 0x91c) = *(arg1 + 0xd8)
+int64_t x8_23 = sx.q(*(arg1 + 0xe8))
+*(entry_x8 + 0xb24) = x8_23.d
+memcpy(entry_x8 + 0x924, *(arg1 + 0xe0), x8_23 << 3)
+*(entry_x8 + 0xb38) = *(arg1 + 0xf8)
+*(entry_x8 + 0xb40) = *(arg1 + 0x100)
+AssignName(entry_x8 + 0xb28, *(arg1 + 0xf0))
+*(entry_x8 + 0xb3c) = *(arg1 + 0xfc)
+*(entry_x8 + 0xb48) = *(arg1 + 0x108)
+int64_t x8_27 = sx.q(*(arg1 + 0x118))
+*(entry_x8 + 0xd50) = x8_27.d
+memcpy(entry_x8 + 0xb50, *(arg1 + 0x110), x8_27 << 3)
+*(entry_x8 + 0xd64) = *(arg1 + 0x128)
+*(entry_x8 + 0xd6c) = *(arg1 + 0x130)
+AssignName(entry_x8 + 0xd54, *(arg1 + 0x120))
+*(entry_x8 + 0xd68) = *(arg1 + 0x12c)
+*(entry_x8 + 0xd74) = *(arg1 + 0x138)
+int64_t x8_31 = sx.q(*(arg1 + 0x148))
+*(entry_x8 + 0xf7c) = x8_31.d
+memcpy(entry_x8 + 0xd7c, *(arg1 + 0x140), x8_31 << 3)
+*(entry_x8 + 0xf90) = *(arg1 + 0x158)
+*(entry_x8 + 0xf98) = *(arg1 + 0x160)
+AssignName(entry_x8 + 0xf80, *(arg1 + 0x150))
+*(entry_x8 + 0xf94) = *(arg1 + 0x15c)
+*(entry_x8 + 0xfa0) = *(arg1 + 0x168)
+int64_t x8_35 = sx.q(*(arg1 + 0x178))
+*(entry_x8 + 0x11a8) = x8_35.d
+return memcpy(entry_x8 + 0xfa8, *(arg1 + 0x170), x8_35 << 3) __tailcall

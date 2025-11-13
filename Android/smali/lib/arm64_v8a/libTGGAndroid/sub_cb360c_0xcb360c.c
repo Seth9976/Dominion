@@ -1,0 +1,17 @@
+// 函数: sub_cb360c
+// 地址: 0xcb360c
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int64_t arg2
+int64_t arg3
+int64_t* arg4
+int32_t arg5
+int64_t arg6
+int32_t arg7
+void* arg8
+struct vtable_for_Botan::OID* const arg9
+return sub_cb3640(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, 
+    arg14, arg15, arg16, arg17, arg18, arg19, arg20, arg21, arg22, arg23, arg24, arg25, arg26, 
+    arg27, arg28, arg29, arg30, arg31, arg32, arg33, arg34, arg35, arg36, arg37, arg38, arg39, 
+    arg40, arg41, arg42, arg43, arg44, arg45, arg46, arg47, arg48, arg49, arg50, arg51, arg52, 
+    arg53, arg54, arg55, arg56, arg57, arg58, arg59, arg60, arg61, arg62, arg63, arg64) __tailcall

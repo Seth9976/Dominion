@@ -1,0 +1,141 @@
+// 函数: _Z25FrustumPerspectiveCornersRK7FrustumP4Vec3
+// 地址: 0xc9db48
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int128_t v1
+v1.d = *arg1
+int128_t v0
+v0.d = *(arg1 + 4)
+int128_t v3
+v3.q = *VUP
+int128_t v4
+v4.d = *(VUP + 8)
+int128_t v5
+v5.q = *VFWD
+int64_t v7 = *VRIGHT
+int128_t v16
+v16.d = *(VRIGHT + 8)
+float v2 = *(arg1 + 0x10)
+v3.d = v3.d f* v0.d
+v3:4.d = v3:4.d f* v0.d
+v0.d = v0.d f* v4.d
+v4.d = v7.d f* v1.d
+v4:4.d = v7:4.d f* v1.d
+v1.d = v1.d f* v16.d
+v0.d = v0.d f+ *(VFWD + 8)
+double v3_2 = vadd_f32(vadd_f32(v3, v5), v4)
+v0.d = v0.d f+ v1.d
+v1.d = v3_2.d f* v2
+v1:4.d = v3_2:4.d f* v2
+v0.d = v2 f* v0.d
+*arg2 = v1.q
+*(arg2 + 8) = v0.d
+v0.q = *VUP
+v2 = *(VUP + 8)
+float v6 = *(arg1 + 4)
+v7.d = *(arg1 + 8)
+v1.q = *VFWD
+v3_2.d = *(VFWD + 8)
+v4.q = *VRIGHT
+v5.d = *(VRIGHT + 8)
+v16.d = *(arg1 + 0x10)
+int128_t v17
+v17.d = v0.d f* v6
+v17:4.d = v0:4.d f* v6
+int128_t v18
+v18.d = v4.d f* v7.d
+v18:4.d = v4:4.d f* v7.d
+v7.d = v7.d f* v5.d
+int128_t v17_2 = vadd_f32(vadd_f32(v17, v1), v18)
+v6 = v6 * v2 f+ v3_2.d f+ v7.d
+v7.d = v17_2.d f* v16.d
+v7:4.d = v17_2:4.d f* v16.d
+*(arg2 + 0xc) = v7
+*(arg2 + 0x14) = v16.d f* v6
+v6 = *(arg1 + 0xc)
+v16.d = *(arg1 + 0x10)
+v7.d = *arg1
+v17_2.d = v0.d f* v6
+v17_2:4.d = v0:4.d f* v6
+v18.d = v4.d f* v7.d
+v18:4.d = v4:4.d f* v7.d
+v7.d = v5.d f* v7.d
+int128_t v17_4 = vadd_f32(vadd_f32(v1, v17_2), v18)
+v6 = v3_2.d f+ v2 * v6 f+ v7.d
+v7.d = v17_4.d f* v16.d
+v7:4.d = v17_4:4.d f* v16.d
+*(arg2 + 0x18) = v7
+*(arg2 + 0x20) = v16.d f* v6
+v7.d = *(arg1 + 8)
+v6 = *(arg1 + 0xc)
+v16.d = v0.d f* v6
+v16:4.d = v0:4.d f* v6
+v17_4.d = v4.d f* v7.d
+v17_4:4.d = v4:4.d f* v7.d
+int128_t v16_2 = vadd_f32(vadd_f32(v1, v16), v17_4)
+v17_4.d = *(arg1 + 0x10)
+v7.d = v5.d f* v7.d
+v6 = v3_2.d f+ v2 * v6 f+ v7.d
+v7.d = v16_2.d f* v17_4.d
+v7:4.d = v16_2:4.d f* v17_4.d
+*(arg2 + 0x24) = v7
+*(arg2 + 0x2c) = v17_4.d f* v6
+v7.d = *arg1
+v6 = *(arg1 + 4)
+v16_2.d = v0.d f* v6
+v16_2:4.d = v0:4.d f* v6
+v17_4.d = v4.d f* v7.d
+v17_4:4.d = v4:4.d f* v7.d
+int128_t v16_4 = vadd_f32(vadd_f32(v1, v16_2), v17_4)
+v17_4.d = *(arg1 + 0x14)
+v7.d = v5.d f* v7.d
+v6 = v3_2.d f+ v2 * v6 f+ v7.d
+v7.d = v16_4.d f* v17_4.d
+v7:4.d = v16_4:4.d f* v17_4.d
+*(arg2 + 0x30) = v7
+*(arg2 + 0x38) = v17_4.d f* v6
+v6 = *(arg1 + 4)
+v7.d = *(arg1 + 8)
+v16_4.d = v0.d f* v6
+v16_4:4.d = v0:4.d f* v6
+v17_4.d = v4.d f* v7.d
+v17_4:4.d = v4:4.d f* v7.d
+int128_t v16_6 = vadd_f32(vadd_f32(v1, v16_4), v17_4)
+v17_4.d = *(arg1 + 0x14)
+v7.d = v5.d f* v7.d
+v6 = v3_2.d f+ v2 * v6 f+ v7.d
+v7.d = v16_6.d f* v17_4.d
+v7:4.d = v16_6:4.d f* v17_4.d
+*(arg2 + 0x3c) = v7
+*(arg2 + 0x44) = v17_4.d f* v6
+v6 = *(arg1 + 0xc)
+v7.d = *arg1
+v16_6.d = v0.d f* v6
+v16_6:4.d = v0:4.d f* v6
+v17_4.d = v4.d f* v7.d
+v17_4:4.d = v4:4.d f* v7.d
+double v16_8 = vadd_f32(vadd_f32(v1, v16_6), v17_4)
+v17_4.d = *(arg1 + 0x14)
+v7.d = v5.d f* v7.d
+v6 = v3_2.d f+ v2 * v6 f+ v7.d
+v7.d = v16_8.d f* v17_4.d
+v7:4.d = v16_8:4.d f* v17_4.d
+*(arg2 + 0x48) = v7
+*(arg2 + 0x50) = v17_4.d f* v6
+v7.d = *(arg1 + 8)
+v6 = *(arg1 + 0xc)
+v16_8.d = *(arg1 + 0x14)
+v0.d = v0.d f* v6
+v0:4.d = v0:4.d f* v6
+v4.d = v4.d f* v7.d
+v4:4.d = v4:4.d f* v7.d
+v5.d = v5.d f* v7.d
+int128_t v0_1 = vadd_f32(v1, v0)
+v1.d = v3_2.d f+ v2 * v6
+v1.d = v1.d f+ v5.d
+double v0_2
+v0_2.d = vadd_f32(v0_1, v4).d f* v16_8.d
+v0_2:4.d = v0_2:4.d f* v16_8.d
+v1.d = v16_8.d f* v1.d
+*(arg2 + 0x54) = v0_2
+*(arg2 + 0x5c) = v1.d

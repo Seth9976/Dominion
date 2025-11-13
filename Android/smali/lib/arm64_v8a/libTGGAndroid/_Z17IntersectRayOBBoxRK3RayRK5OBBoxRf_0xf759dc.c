@@ -1,0 +1,93 @@
+// 函数: _Z17IntersectRayOBBoxRK3RayRK5OBBoxRf
+// 地址: 0xf759dc
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+float v3 = *(arg2 + 0x10)
+float v4 = *(arg2 + 0x14)
+float v5 = *(arg2 + 0x18)
+int128_t v0
+v0.d = *(arg2 + 8)
+float v6 = *(arg2 + 0xc)
+int128_t v2
+v2.d = *arg2
+float v1 = *(arg2 + 4)
+float v21 = v5 * v5
+float v22 = v6 * v6
+float v7 = *arg1
+float v16 = *(arg1 + 4)
+float v18 = fneg(v6)
+float v19 = fneg(v3)
+float v23 = v3 * v3
+int128_t v26
+v26.d = v6 * v3
+float v29 = v22 + v21
+float v20 = v5 * fneg(v4)
+v21 = v21 - v22
+float v17 = *(arg1 + 8)
+float v24 = v4 * v4
+v6 = v6 * v4
+v3 = v3 * v4
+v19 = v5 * v19
+v5 = v5 * v18
+v22 = v26.d f- v20
+v20 = v26.d f+ v20
+v26.d = v23 + v21
+float v25 = v1 + v1
+float v27 = v2.d f+ v2.d
+v18 = v29 - v23
+v29 = v6 + v19
+v6 = v6 - v19
+v19 = v3 - v5
+v3 = v3 + v5
+v5 = v21 - v23
+v21 = v26.d f- v24
+v26.d = v3 * v25
+v5 = v24 + v5
+v4 = v16 + v16
+float v28 = v7 + v7
+v18 = v18 - v24
+v23 = v27 * v6 f+ v26.d
+v1 = v27 * v20 + v1 * v21
+v27 = v0.d f+ v0.d
+v0.d = v0.d f* v5
+v26.d = v3 * v4
+v2.d = v2.d f* v18
+v0.d = v0.d f+ v23
+v23 = v17 + v17
+v2.d = v22 * v25 f+ v2.d
+v2.d = v29 * v27 f+ v2.d
+v0.d = v5 * v17 + v6 * v28 f+ v26.d f- v0.d
+v2.d = v29 * v23 + v18 * v7 + v22 * v4 f- v2.d
+float var_24 = v20 * v28 + v21 * v16 + v19 * v23 - (v19 * v27 + v1)
+int32_t var_20 = v0.d
+int32_t var_28 = v2.d
+v0.d = *(arg1 + 0xc)
+v1 = *(arg1 + 0x10)
+v2.d = *(arg1 + 0x14)
+v4 = v18 f* v0.d
+v7 = v1 + v1
+v0.d = v0.d f+ v0.d
+v16 = v2.d f+ v2.d
+v2.d = v5 f* v2.d
+v18 = v20 f* v0.d
+v0.d = v6 f* v0.d
+v0.d = v0.d f+ v3 * v7
+v0.d = v2.d f+ v0.d
+float var_1c = v4 + v22 * v7 + v29 * v16
+float var_18 = v18 + v21 * v1 + v19 * v16
+int32_t var_14 = v0.d
+v0.q = *(arg2 + 0x1c)
+v1 = *(arg2 + 0x24)
+v2.q = *V0
+v3 = *(V0 + 8)
+v26.d = 0x3f000000
+v26:4.d = 0x3f000000
+int128_t v0_1 = vmul_f32(v0, v26, 0)
+v1 = v1 * fconvert.s(0.5f)
+double v4_1 = vsub_f32(v2, v0_1)
+double v0_2 = vadd_f32(v0_1, v2)
+double var_40 = v4_1
+float var_38 = v3 - v1
+double var_34 = v0_2
+float var_2c = v1 + v3
+return zx.q(IntersectRayBBox(&var_28, &var_40, arg3)) & 1

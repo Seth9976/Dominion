@@ -1,0 +1,38 @@
+// 函数: sub_f487fc
+// 地址: 0xf487fc
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+if (zx.d(*arg1) == zx.d(*arg2) && zx.d(arg1[1]) == zx.d(arg2[1]) && zx.d(arg1[2]) == zx.d(arg2[2])
+        && zx.d(arg1[3]) == zx.d(arg2[3]) && zx.d(arg1[4]) == zx.d(arg2[4])
+        && zx.d(arg1[5]) == zx.d(arg2[5]) && zx.d(arg1[6]) == zx.d(arg2[6])
+        && zx.d(arg1[7]) == zx.d(arg2[7]) && zx.d(arg1[8]) == zx.d(arg2[8])
+        && zx.d(arg1[9]) == zx.d(arg2[9]) && zx.d(arg1[0xa]) == zx.d(arg2[0xa])
+        && zx.d(arg1[0xb]) == zx.d(arg2[0xb]) && zx.d(arg1[0xc]) == zx.d(arg2[0xc])
+        && zx.d(arg1[0xd]) == zx.d(arg2[0xd]) && zx.d(arg1[0xe]) == zx.d(arg2[0xe])
+        && zx.d(arg1[0xf]) == zx.d(arg2[0xf]) && zx.d(arg1[0x10]) == zx.d(arg2[0x10])
+        && zx.d(arg1[0x11]) == zx.d(arg2[0x11]) && zx.d(arg1[0x12]) == zx.d(arg2[0x12])
+        && zx.d(arg1[0x13]) == zx.d(arg2[0x13]) && zx.d(arg1[0x14]) == zx.d(arg2[0x14])
+        && zx.d(arg1[0x15]) == zx.d(arg2[0x15]) && zx.d(arg1[0x16]) == zx.d(arg2[0x16])
+        && zx.d(arg1[0x17]) == zx.d(arg2[0x17]) && zx.d(arg1[0x18]) == zx.d(arg2[0x18])
+        && zx.d(arg1[0x19]) == zx.d(arg2[0x19]) && zx.d(arg1[0x1a]) == zx.d(arg2[0x1a])
+        && zx.d(arg1[0x1b]) == zx.d(arg2[0x1b]) && zx.d(arg1[0x1c]) == zx.d(arg2[0x1c])
+        && zx.d(arg1[0x1d]) == zx.d(arg2[0x1d]) && zx.d(arg1[0x1e]) == zx.d(arg2[0x1e])
+        && zx.d(arg1[0x1f]) == zx.d(arg2[0x1f]) && zx.d(arg1[0x20]) == zx.d(arg2[0x20])
+        && zx.d(arg1[0x21]) == zx.d(arg2[0x21]) && zx.d(arg1[0x22]) == zx.d(arg2[0x22])
+        && zx.d(arg1[0x23]) == zx.d(arg2[0x23]) && zx.d(arg1[0x24]) == zx.d(arg2[0x24])
+        && zx.d(arg1[0x25]) == zx.d(arg2[0x25]) && zx.d(arg1[0x26]) == zx.d(arg2[0x26])
+        && zx.d(arg1[0x27]) == zx.d(arg2[0x27]) && zx.d(arg1[0x28]) == zx.d(arg2[0x28])
+        && zx.d(arg1[0x29]) == zx.d(arg2[0x29]) && zx.d(arg1[0x2a]) == zx.d(arg2[0x2a])
+        && zx.d(arg1[0x2b]) == zx.d(arg2[0x2b]) && zx.d(arg1[0x2c]) == zx.d(arg2[0x2c])
+        && zx.d(arg1[0x2d]) == zx.d(arg2[0x2d]) && zx.d(arg1[0x2e]) == zx.d(arg2[0x2e])
+        && zx.d(arg1[0x2f]) == zx.d(arg2[0x2f]) && zx.d(arg1[0x30]) == zx.d(arg2[0x30])
+        && zx.d(arg1[0x31]) == zx.d(arg2[0x31]) && zx.d(arg1[0x32]) == zx.d(arg2[0x32])
+        && zx.d(arg1[0x33]) == zx.d(arg2[0x33]) && zx.d(arg1[0x34]) == zx.d(arg2[0x34])
+        && zx.d(arg1[0x35]) == zx.d(arg2[0x35]) && zx.d(arg1[0x36]) == zx.d(arg2[0x36])
+        && zx.d(arg1[0x37]) == zx.d(arg2[0x37]) && zx.d(arg1[0x38]) == zx.d(arg2[0x38])
+        && zx.d(arg1[0x39]) == zx.d(arg2[0x39]) && zx.d(arg1[0x3a]) == zx.d(arg2[0x3a])
+        && zx.d(arg1[0x3b]) == zx.d(arg2[0x3b]) && zx.d(arg1[0x3c]) == zx.d(arg2[0x3c])
+        && zx.d(arg1[0x3d]) == zx.d(arg2[0x3d]) && zx.d(arg1[0x3e]) == zx.d(arg2[0x3e]))
+    return zx.q(zx.d(arg1[0x3f]) == zx.d(arg2[0x3f]) ? 1 : 0)
+
+return 0

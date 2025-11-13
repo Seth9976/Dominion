@@ -1,0 +1,5 @@
+// 函数: _Z20parse_integer_stringR14UI2ParserState
+// 地址: 0x111ecf0
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+return parse_integer_string(arg1) __tailcall

@@ -1,0 +1,8 @@
+// 函数: sub_f42ae0
+// 地址: 0xf42ae0
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+std::__ndk1::locale::~locale()
+std::__ndk1::basic_streambuf<char, std::__ndk1::char_traits<char> >::~basic_streambuf()
+sub_1101e04(arg1)
+noreturn

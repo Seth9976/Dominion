@@ -1,0 +1,69 @@
+// 函数: _Z14OBBoxTransformRK5OBBoxRK9Transform
+// 地址: 0xf89264
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+float v0 = *arg2
+int64_t v1
+v1.d = *(arg2 + 4)
+float v2 = *(arg2 + 8)
+float v3 = *(arg2 + 0xc)
+float v4 = *(arg2 + 0x10)
+float v7 = v0 * *(arg1 + 8)
+float v18 = v1.d f* v1.d
+float v17 = v4 * v4
+float v22 = v4 * v2
+float v23 = v1.d f* v3
+float v24 = v2 * v3
+float v25 = v4 f* v1.d
+float v5 = v0 * *arg1
+float v6 = v0 * *(arg1 + 4)
+float v20 = v1.d f* v2
+float v21 = v4 * v3
+float v26 = v17 + v18
+v17 = v17 - v18
+v18 = v22 + v23
+v22 = v23 - v22
+v23 = v24 - v25
+v24 = v25 + v24
+v25 = v7 + v7
+float v27 = v20 - v21
+v20 = v20 + v21
+v21 = v6 + v6
+v18 = v25 * v18
+v23 = v25 * v23
+v25 = v5 + v5
+float v19 = v2 * v2
+v27 = v21 * v27
+v21 = v25 * v22 + v21 * v24
+v22 = v3 * v3
+v7 = *(arg2 + 0x1c) + v7 * (v17 - v19 + v22) + v21
+v5 = *(arg2 + 0x14) + v18 + v5 * (v26 - v19 - v22) + v27
+float* entry_x8
+entry_x8[1] = *(arg2 + 0x18) + v23 + v25 * v20 + v6 * (v17 + v19 - v22)
+entry_x8[2] = v7
+*entry_x8 = v5
+float v16 = *(arg1 + 0x14)
+v5 = *(arg1 + 0x18)
+v6 = *(arg1 + 0xc)
+v7 = *(arg1 + 0x10)
+v17 = v4 * v5
+v18 = v1.d f* v6
+v20 = v3 * v16
+v21 = v4 * v6
+v22 = v5 f* v1.d
+v25 = v4 * v7
+v4 = v4 * v16
+v23 = v2 * v16
+v16 = v1.d f* v16
+v1.d = v1.d f* v7
+v1.d = v1.d f+ v5 * v3 + v4
+v1.d = v1.d f- v6 * v2
+entry_x8[3] = v22 + v21 + v23 - v7 * v3
+entry_x8[4] = v5 * v2 + v25 + v6 * v3 - v16
+entry_x8[5] = v1.d
+entry_x8[6] = v17 - v18 - v2 * v7 - v20
+v1.d = (*(arg1 + 0x1c)).d f* v0
+v1:4.d = v1:4.d f* v0
+v0 = v0 * *(arg1 + 0x24)
+*(entry_x8 + 0x1c) = v1
+entry_x8[9] = v0

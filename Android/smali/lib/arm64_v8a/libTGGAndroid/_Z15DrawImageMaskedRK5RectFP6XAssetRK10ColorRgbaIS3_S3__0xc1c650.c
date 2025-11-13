@@ -1,0 +1,67 @@
+// 函数: _Z15DrawImageMaskedRK5RectFP6XAssetRK10ColorRgbaIS3_S3_
+// 地址: 0xc1c650
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+float v2 = *arg1
+float v3 = *(arg1 + 4)
+float v1 = *(arg1 + 8)
+float v0 = *(arg1 + 0xc)
+float v4 = *RECT1
+float v5 = *(RECT1 + 4)
+float v6 = *(RECT1 + 8)
+float v7 = *(RECT1 + 0xc)
+uint64_t x8 = *gpRenderAppData
+float v24 = 0f
+float var_40 = v4
+float var_3c = v5
+float var_38 = v6
+float var_34 = v5
+float var_30 = v4
+float var_2c = v7
+float var_28 = v6
+float var_24 = v7
+v4 = *(x8 + 0x124)
+v5 = *(x8 + 0x128)
+float v16 = *(x8 + 0x134)
+float v17 = *(x8 + 0x138)
+float v20 = *(x8 + 0x144)
+float v21 = *(x8 + 0x148)
+v7 = *(x8 + 0x130)
+float v19 = *(x8 + 0x140)
+float v25 = v2 * v4
+float v26 = v3 * v5
+float v27 = v2 * v16
+float v28 = v3 * v17
+int64_t x9 = *VZ
+v6 = *(x8 + 0x12c) * v24
+float v18 = *(x8 + 0x13c) * v24
+v2 = v2 * v20
+v3 = v3 * v21
+v4 = v1 * v4
+v16 = v1 * v16
+v1 = v1 * v20
+v5 = v0 * v5
+v17 = v0 * v17
+v0 = v0 * v21
+float v22 = *(x8 + 0x14c) * v24
+float v23 = *(x8 + 0x150)
+float var_70 = v7 + v25 + v26 + v6
+float var_6c = v19 + v27 + v28 + v18
+int64_t var_90 = x9
+float var_64 = v7 + v4 + v26 + v6
+int32_t x8_1 = *(VZ + 8)
+int64_t var_80 = var_70.q
+float var_60 = v19 + v16 + v28 + v18
+float var_5c = v23 + v1 + v3 + v22
+float var_58 = v7 + v25 + v5 + v6
+float var_54 = v19 + v27 + v17 + v18
+float var_50 = v23 + v2 + v0 + v22
+float var_4c = v7 + v4 + v5 + v6
+float var_48 = v19 + v16 + v17 + v18
+float var_44 = v23 + v1 + v0 + v22
+float var_78 = v23 + v2 + v3 + v22
+int32_t var_88 = x8_1
+int64_t var_98 = SpriteColorSet(arg3, gRgbaINone)
+XAsset* var_b0 = arg5
+int64_t var_a8 = 0
+return Draw3DQuadFullComplete(&var_70, &var_40, &var_98, 0, &var_80, &var_90, arg2, arg4)

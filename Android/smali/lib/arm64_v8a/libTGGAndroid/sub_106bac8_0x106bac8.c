@@ -1,0 +1,13 @@
+// 函数: sub_106bac8
+// 地址: 0x106bac8
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int32_t fd = *(*(arg1 + 0x38) + 0xc4)
+char buf = 8
+ssize_t result = write(fd, &buf, 1)
+
+if (result == 1)
+    return result
+
+return __android_log_print(6, "TGLOG", "Failure writing android_app cmd: %s\n", 
+    strerror(*__errno()))

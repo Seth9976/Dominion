@@ -1,0 +1,184 @@
+// 函数: _ZNSt6__ndk127__insertion_sort_incompleteIRNS_6__lessIttEEPtEEbT0_S5_T_
+// 地址: 0x109b7c4
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+int64_t x8_1 = (arg2 - arg1) s>> 1
+char x8_2
+
+if (x8_1 u> 5)
+    uint32_t x8_4 = zx.d(arg1[1])
+    uint32_t x9_2 = zx.d(*arg1)
+    uint32_t x10_1 = zx.d(arg1[2])
+    
+    if (x8_4 u>= x9_2)
+        if (x10_1 u>= x8_4)
+            x8_4 = x10_1
+        else
+            arg1[1] = x10_1.w
+            arg1[2] = x8_4.w
+            
+            if (x10_1 u< x9_2)
+                *arg1 = x10_1.w
+                arg1[1] = x9_2.w
+    else if (x10_1 u>= x8_4)
+        *arg1 = x8_4.w
+        arg1[1] = x9_2.w
+        
+        if (x10_1 u>= x9_2)
+            x8_4 = x10_1
+        else
+            arg1[1] = x10_1.w
+            x8_4 = x9_2
+            arg1[2] = x9_2.w
+    else
+        *arg1 = x10_1.w
+        x8_4 = x9_2
+        arg1[2] = x9_2.w
+    
+    void* x10_4 = &arg1[3]
+    char x8_12
+    
+    if (x10_4 == arg2)
+    label_109b9c8:
+        x8_12 = 1
+    else
+        x9_2 = 0
+        int64_t x11_2 = 6
+        
+        while (true)
+            uint32_t x12_1 = zx.d(*x10_4)
+            
+            if (x12_1 u< zx.d(x8_4.w))
+                int64_t x14_1 = x11_2
+                uint16_t* x8_10
+                
+                while (true)
+                    int64_t x13_1 = x14_1 - 2
+                    *(arg1 + x14_1) = x8_4.w
+                    
+                    if (x14_1 == 2)
+                        x8_10 = arg1
+                        break
+                    
+                    x8_4 = zx.d(*(arg1 + x14_1 - 4))
+                    x14_1 = x13_1
+                    
+                    if (x12_1 u>= x8_4)
+                        x8_10 = arg1 + x13_1
+                        break
+                
+                x9_2 += 1
+                *x8_10 = x12_1.w
+                
+                if (x9_2 == 8)
+                    x8_12 = 0
+                    x9_2 = x10_4 + 2 == arg2 ? 1 : 0
+                    break
+            
+            if (x10_4 + 2 == arg2)
+                goto label_109b9c8
+            
+            x8_4 = zx.d(*x10_4)
+            x11_2 += 2
+            x10_4 += 2
+    
+    x8_2 = x8_12 | x9_2.b
+else
+    x8_2 = 1
+    
+    switch (x8_1)
+        case 2
+            SystemHintOp_BTI()
+            uint32_t x8_3 = zx.d(arg2[-1])
+            uint32_t x9_1 = zx.d(*arg1)
+            
+            if (x8_3 u< x9_1)
+                *arg1 = x8_3.w
+                arg2[-1] = x9_1.w
+            
+            x8_2 = 1
+        case 3
+            SystemHintOp_BTI()
+            uint32_t x9_3 = zx.d(arg1[1])
+            uint32_t x8_5 = zx.d(*arg1)
+            uint32_t x10_2 = zx.d(arg2[-1])
+            
+            if (x9_3 u>= x8_5)
+                if (x10_2 u< x9_3)
+                    arg1[1] = x10_2.w
+                    arg2[-1] = x9_3.w
+                    uint32_t x8_8 = zx.d(arg1[1])
+                    uint32_t x9_5 = zx.d(*arg1)
+                    
+                    if (x8_8 u< x9_5)
+                        *arg1 = x8_8.w
+                        arg1[1] = x9_5.w
+            else if (x10_2 u>= x9_3)
+                *arg1 = x9_3.w
+                arg1[1] = x8_5.w
+                uint32_t x9_6 = zx.d(arg2[-1])
+                
+                if (x9_6 u< x8_5)
+                    arg1[1] = x9_6.w
+                    arg2[-1] = x8_5.w
+            else
+                *arg1 = x10_2.w
+                arg2[-1] = x8_5.w
+            
+            x8_2 = 1
+        case 4
+            SystemHintOp_BTI()
+            uint32_t x8_7 = zx.d(arg1[1])
+            uint32_t x9_4 = zx.d(*arg1)
+            uint32_t x10_3 = zx.d(arg1[2])
+            
+            if (x8_7 u>= x9_4)
+                if (x10_3 u>= x8_7)
+                    x8_7 = x10_3
+                else
+                    arg1[1] = x10_3.w
+                    arg1[2] = x8_7.w
+                    
+                    if (x10_3 u< x9_4)
+                        *arg1 = x10_3.w
+                        arg1[1] = x9_4.w
+            else if (x10_3 u>= x8_7)
+                *arg1 = x8_7.w
+                arg1[1] = x9_4.w
+                
+                if (x10_3 u>= x9_4)
+                    x8_7 = x10_3
+                else
+                    arg1[1] = x10_3.w
+                    x8_7 = x9_4
+                    arg1[2] = x9_4.w
+            else
+                *arg1 = x10_3.w
+                x8_7 = x9_4
+                arg1[2] = x9_4.w
+            
+            uint32_t x9_7 = zx.d(arg2[-1])
+            
+            if (x9_7 u< x8_7)
+                arg1[2] = x9_7.w
+                arg2[-1] = x8_7.w
+                uint32_t x8_11 = zx.d(arg1[2])
+                uint32_t x9_8 = zx.d(arg1[1])
+                
+                if (x8_11 u< x9_8)
+                    uint32_t x10_5 = zx.d(*arg1)
+                    arg1[1] = x8_11.w
+                    arg1[2] = x9_8.w
+                    
+                    if (x8_11 u< x10_5)
+                        *arg1 = x8_11.w
+                        arg1[1] = x10_5.w
+            
+            x8_2 = 1
+        case 5
+            SystemHintOp_BTI()
+            sub_109b638(arg1, &arg1[1], &arg1[2], &arg1[3], arg2 - 2)
+            x8_2 = 1
+
+SystemHintOp_BTI()
+return x8_2 & 1

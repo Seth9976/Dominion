@@ -1,0 +1,5 @@
+// 函数: _ZNSt6__ndk17__sort4IR9SortCardsP6CardIDEEjT0_S5_S5_S5_T_
+// 地址: 0x11102f0
+// 来自: E:\torrent\Cursor\Dominion_1.0.3315\split_config.arm64_v8a\lib\arm64-v8a\libTGGAndroid.so
+
+return std::__ndk1::__sort4<SortCards&, CardID*>(arg1, arg2, arg3, arg4, arg5) __tailcall
